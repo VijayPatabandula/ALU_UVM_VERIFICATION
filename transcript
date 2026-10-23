@@ -1,0 +1,25 @@
+# do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 22:50:08 on Oct 23,2026
+# vlog top.sv 
+# ** Note: (vlog-2286) top.sv(1): Using implicit +incdir+C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# ** Error: top.sv(9): Cannot find `include file "monitor.sv" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: ** while parsing file included at top.sv(11)
+# ** at agent.sv(6): Invalid type 'monitor'. Please check the type of the variable 'mon'.
+# ** Error: ** while parsing file included at top.sv(11)
+# ** at agent.sv(17): (vlog-2730) Undefined variable: 'mon'.
+# ** Error: ** while parsing file included at top.sv(11)
+# ** at agent.sv(17): (vlog-2164) Class or package 'monitor' not found.
+# ** Error: ** while parsing file included at top.sv(11)
+# ** at agent.sv(17): (vlog-2730) Undefined variable: 'monitor'.
+# ** Error: (vlog-13069) ** while parsing file included at top.sv(11)
+# ** at agent.sv(17): near "::": syntax error, unexpected ::, expecting ';'.
+# End time: 22:50:08 on Oct 23,2026, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 2
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog top.sv"
